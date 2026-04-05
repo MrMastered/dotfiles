@@ -107,11 +107,11 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export PATH=$PATH:/home/rkrz/.local/bin
+export PATH=$PATH:~/.local/bin
 
 eval "$(oh-my-posh init zsh --config 'https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/refs/heads/main/themes/powerlevel10k_rainbow.omp.json')"
 
-export PATH=$PATH:/home/rkrz/.spicetify
+export PATH=$PATH:~/.spicetify
 
 
 
